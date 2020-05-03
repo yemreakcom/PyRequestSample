@@ -80,7 +80,7 @@ class Client:
 
     def authenticate(self):
         url = ""  # TODO: Auth url
-        signature = self._create_signatureStr() # Signature daha önce alınmalı
+        signature = self._create_signatureStr()  # Signature daha önce alınmalı
         headers = {
             "X-PCK": self.publicKey,
             "X-Stamp": self._create_timestampStr(),
