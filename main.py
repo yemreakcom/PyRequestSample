@@ -80,10 +80,11 @@ class Client:
 
     def authenticate(self):
         url = ""  # TODO: Auth url
+        signature = self._create_signatureStr() # Signature daha önce alınmalı
         headers = {
             "X-PCK": self.publicKey,
             "X-Stamp": self._create_timestampStr(),
-            "X-Signature": self._create_signatureStr()
+            "X-Signature": signature
         }
         response = requests.get(url, headers=headers)
         if response.status_code == 200:
