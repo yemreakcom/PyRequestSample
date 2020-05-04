@@ -15,6 +15,15 @@ Python request modülü ile güvenlikli (base64, sha256) API kullanımı
 - 🐥 Session oluşturma
 - 💎 Get request örneği
 
+
+## 🔳 Şematik
+
+![handwrite](assets/schematic.png)
+
+## ✍ El Yazım
+
+![handwrite](assets/handwrite.jpeg)
+
 ## 📺 Video Açıklaması
 
 [![👨‍💻 Python request modülü ile güvenlikli (base64, sha256) API kullanımı](https://img.youtube.com/vi/fc2xZJjz-ZI/0.jpg)](https://www.youtube.com/watch?v=fc2xZJjz-ZI)
