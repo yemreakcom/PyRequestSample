@@ -1,4 +1,4 @@
-# 👨‍💻 RequestSample
+# 👨‍💻 PyRequestSample
 
 Python request modülü ile güvenlikli (base64, sha256) API kullanımı
 
